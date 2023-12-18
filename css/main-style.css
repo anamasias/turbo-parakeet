@@ -1,0 +1,155 @@
+/* Ana Masias */
+
+html{
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.20rem;
+    line-height: 125%;
+    color: #4f3f2f;
+}
+
+/* All Coding for Navigations */
+nav{
+    background-color: #decebf;
+    text-align: center;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-right: 1em;
+    list-style-type: none;
+}
+
+nav li{
+    padding-top: .3em;
+    padding-bottom: .3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #ccc1b8;
+    border-radius: 100px;
+    box-shadow: 1px 1px 1px;
+}
+
+nav a{
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    flex-direction: column;
+}
+
+nav a:link{
+    color: #4f3f2f;
+    text-decoration: none;
+}
+nav a:visited{
+    color: white;
+}
+nav a:hover{
+    color: #4f3f2f;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/*All Coding for Headers*/
+h1,
+h2,
+h3 {
+    font-family: 'Preahvihear', sans-serif;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 3rem;
+    margin: 6% 0;
+    text-align: center;
+    text-shadow: 1px 3px 1px #ccc;
+    line-height: 60px;
+}
+
+img{
+    float:left;
+    max-width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 50%;
+    box-shadow: 3px 3px 1px #ccc;
+    shape-outside: circle(50%);
+}
+
+
+/*Coding for Classes*/
+.rate{
+    clear:both;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.emoji::after{
+    content: "🦴";
+}
+
+.emojistar::after{
+    content: "⭐⭐⭐⭐⭐";
+}
+
+.ingredients{
+    width: 40%;
+    float: left;
+}
+
+.nutrition{
+    margin-right: 16%;
+    margin-left: 8%;
+}
+
+.footerau{
+    margin-top: 60px;
+    text-align: center;
+}
+
+blockquote small{
+    text-align: right;
+}
+
+
+/*Coding for Table in Icing Directions*/
+td, th{
+    padding: 4px;
+    border: 3px solid #52413a;
+    font-family: sans-serif;
+}
+td{
+    text-align: center;
+}
+th{
+    font-weight: bold;
+}
+.text{
+    text-align: left;
+}
+tr:nth-of-type(even){
+    background-color: #c4b5a1;
+}
+
+footer{
+    background-color: #decebf;
+    color: white;
+    padding: 2% 0;
+    margin-top: 10px;
+    text-align: center;
+}
